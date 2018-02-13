@@ -20,7 +20,7 @@
         android:textSize="32sp"
         android:textColor="@android:color/black"
         android:id="@+id/textView"/>
-    
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -28,6 +28,15 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="121dp"
         android:text="Sound"
-        android:onClick="message" />
+        android:onClick="sound" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="121dp"
+        android:text="Email"
+        android:onClick="email" />
 
 </RelativeLayout>
